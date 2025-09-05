@@ -1,0 +1,11 @@
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 200px;    /* prevents text from shrinking too much */
+}
