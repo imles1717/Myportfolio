@@ -1,77 +1,112 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Home Cable - Weekly Prime-Time Schedule</title>
-   <style>
+  <meta charset="UTF-8">
+  <title>Class Schedule</title>
+  <style>
     body {
       font-family: Arial, sans-serif;
-      padding: 2rem;
-      line-height: 1.6;
-      background-color: #06141b; /* dark background */
-      color: #ccd0cf; /* light text color */
+      margin: 20px;
+      background: #f4f6f9;
     }
 
-    h1, h2, h3 {
-      margin-bottom: 0.5rem;
-      color: #9babab; /* slightly brighter headings */
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 20px;
     }
 
-    .section {
-      margin-left: 1rem;
-      margin-bottom: 1rem;
-      color: #ccd0cf;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
-    .subsection {
-      margin-left: 2rem;
-      margin-bottom: 0.5rem;
-      color: #9babab;
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
     }
 
-    strong {
-      color: #4a506a;
+    th {
+      background: #34495e;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background: #f9f9f9;
+    }
+
+    tr:hover {
+      background: #ecf0f1;
     }
   </style>
 </head>
 <body>
-  <h1>Home Cable Weekly Prime-Time TV Schedule</h1>
-  <p>Schedule: 7:00 PM - 10:00 PM</p>
+  <h1>Home Cable Weekly Class Schedule</h1>
+  <p style="text-align:center;">Schedule: 7:00 AM - 5:00 PM</p>
 
-  <table border="1" cellpadding="10" cellspacing="0">
+  <table>
     <tr>
       <th>Time</th>
-      <th>Channel 1</th>
-      <th>Channel 2</th>
-      <th>Channel 3</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+      <th>Saturday</th>
     </tr>
     <tr>
-      <td>7:00 - 7:30</td>
-      <td rowspan="2">Evening News</td>
-      <td>Comedy Show</td>
-      <td rowspan="4">Movie: Action Blast</td>
+      <td>7:00 - 8:00</td>
+      <td>Embedded System 2</td>
+      <td>Calculus</td>
+      <td>Practical Research</td>
     </tr>
     <tr>
-      <td>7:30 - 8:00</td>
-      <td>Cooking Time</td>
+      <td>8:00 - 9:00</td>
+      <td>Embedded System 3</td>
+      <td>Practical Research</td>
+      <td>Calculus</td>
     </tr>
     <tr>
-      <td>8:00 - 8:30</td>
-      <td rowspan="2">Drama Series</td>
-      <td>Sports Highlights</td>
+      <td>9:00 - 10:00</td>
+      <td>Calculus</td>
+      <td>Embedded System 2</td>
+      <td>Embedded System 3</td>
     </tr>
     <tr>
-      <td>8:30 - 9:00</td>
-      <td>Travel Show</td>
+      <td>10:00 - 11:00</td>
+      <td>Practical Research</td>
+      <td>Embedded System 3</td>
+      <td>Embedded System 2</td>
     </tr>
     <tr>
-      <td>9:00 - 9:30</td>
-      <td rowspan="2">Game Show</td>
-      <td rowspan="2">Late Night Sitcom</td>
-      <td rowspan="2">Movie: Action Blast (cont.)</td>
+      <td>11:00 - 12:00</td>
+      <td>Calculus</td>
+      <td>Practical Research</td>
+      <td>Calculus</td>
     </tr>
     <tr>
-      <td>9:30 - 10:00</td>
+      <td>1:00 - 2:00</td>
+      <td>Embedded System 2</td>
+      <td>Calculus</td>
+      <td>Practical Research</td>
+    </tr>
+    <tr>
+      <td>2:00 - 3:00</td>
+      <td>Embedded System 3</td>
+      <td>Practical Research</td>
+      <td>Embedded System 2</td>
+    </tr>
+    <tr>
+      <td>3:00 - 4:00</td>
+      <td>Calculus</td>
+      <td>Embedded System 2</td>
+      <td>Embedded System 3</td>
+    </tr>
+    <tr>
+      <td>4:00 - 5:00</td>
+      <td>Practical Research</td>
+      <td>Calculus</td>
+      <td>Practical Research</td>
     </tr>
   </table>
 </body>

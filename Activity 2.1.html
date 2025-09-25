@@ -3,13 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title>Mitchel Montalla - Resume</title>
-  <style>
+   <style>
     body {
       font-family: Arial, sans-serif;
       padding: 2rem;
       line-height: 1.6;
       background-color: #06141b; /* dark background */
       color: #ccd0cf; /* light text color */
+      text-align: center; /* center-align top content */
     }
 
     h1, h2, h3 {
@@ -21,63 +22,63 @@
       margin-left: 1rem;
       margin-bottom: 1rem;
       color: #ccd0cf;
-    }
-
-    .subsection {
-      margin-left: 2rem;
-      margin-bottom: 0.5rem;
-      color: #9babab;
+      text-align: left; /* keep details left-aligned */
+      display: inline-block; 
+      max-width: 600px; 
+      width: 100%;
     }
 
     strong {
       color: #4a506a;
     }
 
-    /* Profile photo styling */
-    .profile-photo {
-      display: block;
-      margin: 0 auto 1rem auto;
-      width: 150px;
+    .profile-pic {
+      width: 150px;   /* smaller size */
       height: 150px;
-      border-radius: 50%;
+      border-radius: 50%; /* circular image */
       object-fit: cover;
-      border: 3px solid #4a506a;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+      margin-bottom: 1rem;
+      border: 3px solid #9babab; /* subtle border */
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
   </style>
 </head>
 <body>
-  <!-- Profile Photo -->
- <img src="me.jpeg" alt="Mitchel Montalla" class="profile-pic" width="500"/>
+  <!-- Profile picture -->
+  <img src="me.jpeg" alt="Mitchel Montalla" class="profile-pic">
 
   <h1>Mitchel Montalla</h1>
   <p>Email: mitchel123@email.com</p>
   <p>Phone: +63 912 345 6789</p>
   <p>Address: Manila, Philippines</p>
 
-  <h2>Objective</h2>
-  <p>To find an entry-level position in business administration where I can apply my knowledge and skills.</p>
+  <div class="section">
+    <h2>Objective</h2>
+    <p>To find an entry-level position in business administration where I can apply my knowledge and skills.</p>
 
-  <h2>Education</h2>
-  <p><strong>Bachelor of Science in Business Administration</strong><br>
-  San Sebastian College-Recoletos de Cavite<br>
-  Graduated: April 2025</p>
+    <h2>Education</h2>
+    <p><strong>Bachelor of Science in Business Administration</strong><br>
+    San Sebastian College-Recoletos de Cavite<br>
+    Graduated: April 2025</p>
 
-  <h2>Experience</h2>
-  <p><strong>Operations Intern</strong> - CXI Inc. (Jun 2024 - Sep 2024)<br>
-  Helped with daily operations and prepared reports.</p>
+    <h2>Experience</h2>
+    <p><strong>Operations Intern</strong> - CXI Inc. (Jun 2024 - Sep 2024)<br>
+    Helped with daily operations and prepared reports.</p>
 
-  <p><strong>Customer Service Representative</strong> - Teleperformance (Jan 2023 - Mar 2024)<br>
-  Assisted customers with inquiries and maintained good service.</p>
+    <p><strong>Customer Service Representative</strong> - Teleperformance (Jan 2023 - Mar 2024)<br>
+    Assisted customers with inquiries and maintained good service.</p>
 
-  <h2>Skills</h2>
-  <ul>
-    <li>Microsoft Office</li>
-    <li>Communication</li>
-    <li>Teamwork</li>
-  </ul>
+    <h2>Skills</h2>
+    <ul>
+      <li>Microsoft Office</li>
+      <li>Communication</li>
+      <li>Teamwork</li>
+    </ul>
 
-  <h2>References</h2>
-  <p>Available upon request.</p>
+    <h2>References</h2>
+    <p>Available upon request.</p>
+  </div>
 </body>
 </html>

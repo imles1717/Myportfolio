@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Triangle Type Checker</title>
+  <script>
+    function determineTriangle(a, b, c) {
+      // Convert input to numbers
+      a = Number(a);
+      b = Number(b);
+      c = Number(c);
+
+      // Check if inputs form a valid triangle (triangle inequality)
+      if (a + b <= c || a + c <= b || b + c <= a) {
+        window.alert("The values do not form a valid triangle.");
+        return;
+      }
+
+      // Determine type
+      if (a === b && b === c) {
+        window.alert("The triangle is EQUILATERAL.");
+      } else if (a === b || b === c || a === c) {
+        window.alert("The triangle is ISOSCELES.");
+      } else {
+        window.alert("The triangle is SCALENE.");
+      }
+    }
+
+    function main() {
+      var a = prompt("Enter length of side a:");
+      var b = prompt("Enter length of side b:");
+      var c = prompt("Enter length of side c:");
+
+      // Check if inputs are numbers
+      if (isNaN(a) || isNaN(b) || isNaN(c) || a === "" || b === "" || c === "") {
+        window.alert("Please enter valid numbers.");
+      } else {
+        determineTriangle(a, b, c);
+      }
+    }
+
+    // Run the program
+    main();
+  </script>
+</head>
+<body>
+</body>
+</html>
